@@ -12,4 +12,4 @@ while(count < 10){
     count++;
 }
 
-console.table(array.reduce(() => {}, ''))
+console.table(array.reduce(element => , ''))

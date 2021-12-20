@@ -22,12 +22,33 @@ A média dos salários dos colaboradores;
 Obs: Utilize funções de alta ordem para realizar os cálculos.
 */
 
-const colaborador = {
+const prompt = require('prompt-sync')({sigint: true});
+
+const adicionarColaborador = (id, nome, idade, cargo, salario, dtAdmissao) => ([
+    {
     id,
     nome,
     idade,
     cargo,
     salario,
-    dataAdmissao
+    dtAdmissao
+    },
+])
+
+const colab1 = adicionarColaborador(1, 'Lucas', 27, 'estagiário', 1500, '10/05')
+const colab2 = adicionarColaborador(2, 'Marina', 59, 'farmacêutica', 1500, '10/10')
+const colab3 = adicionarColaborador(3, 'Daniela', 27, 'advogada', 3000, '20/12')
+
+
+const addColab = (colaborador) => {
+    colaborador.id = parseInt(prompt("Digite o id: "));
+    colaborador.nome = prompt("Digite o nome: ");
+    colaborador.idade = parseInt(prompt("Digite a idade: "));
+    colaborador.cargo = prompt("Digite o cargo: ");
+    colaborador.salario = parseFloat(prompt("Digite o salário: "));
+    colaborador.dtAdmissao = prompt("Digite a data de admissão (formato ): ");
 }
 
+const addInfos = addColab(adicionarColaborador)
+
+console.log(addInfos)

@@ -9,21 +9,29 @@ Volume da esfera = 4*3.14*r*r*r/3
 */
 
 class Bola {
-    constructor (area, raio) {
+    constructor (area, raio, cor) {
         if(isNaN(area) || isNaN(raio)) throw "Valores inválidos"
         this.area = area;
         this.raio = raio;
+        this.cor = cor;
+        this.area;
+        this.volume
     }
 
     calculaArea () {
-        return console.log(`Área da bola: ${(4 * Math.PI * (this.area ** 2)).toFixed(0)}`);
+        return this.volume = (4 * Math.PI * (this.area ** 2)).toFixed(0);
     }
 
     calculaVolume () {
-        return console.log(`Volume da bola: ${(4 * Math.PI * (this.raio / 3)).toFixed(0)}`);
+        return this.area = (4 * Math.PI * (this.raio / 3)).toFixed(0);
+    }
+
+    imprimeDados () {
+        return console.log(`Área da bola: ${this.area}\nVolume da bola: ${this.volume}\nCor da bola: ${this.cor}`)
     }
 }
 
-const bola = new Bola(2, 3);
+const bola = new Bola(2, 3, "Branca");
 bola.calculaArea();
 bola.calculaVolume();
+bola.imprimeDados();
