@@ -4,3 +4,7 @@ Escreva um algoritmo para ler o nome e a idade de uma pessoa, e exibir quantos d
 
 const prompt = require('prompt-sync')({sigint: true});
 
+let nome = prompt("Digite o nome: ");
+let idade = parseInt(prompt("Digite a idade: "));
+
+console.log(`${nome}, você já viveu ${idade * 365} dias.`)
