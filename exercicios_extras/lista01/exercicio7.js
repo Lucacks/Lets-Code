@@ -5,7 +5,7 @@ Entrar com o dia e o mês de uma data e informar quantos dias se passaram desde 
 const prompt = require('prompt-sync')({sigint: true});
 
 let dia = prompt("Dia: ");
-let mes = prompt("Mês: ");
+let mes = prompt("Mês: "
 
 
 
