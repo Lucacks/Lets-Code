@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "ascii-art": "^2.8.5",
+    "prompt-sync": "^4.2.0"
+  }
+}
