@@ -1,0 +1,14 @@
+{
+  "name": "linter-15-02-2022",
+  "version": "1.0.0",
+  "description": "Verificador de código",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "devDependencies": {
+
+  }
+}
