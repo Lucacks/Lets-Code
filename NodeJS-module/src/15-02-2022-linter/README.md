@@ -1,5 +1,6 @@
 # Técnicas de Programação I
 # Turma 818 | Bora ser Tech
 
-### Exercise 2 - Linter
-Install ESLint and config with AirBnb rules.
+### Exercício 2 - Linter
+
+Instalar o ESLint e configurá-lo com as regras do AirBnB.
