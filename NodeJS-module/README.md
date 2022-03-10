@@ -11,5 +11,4 @@ O módulo é focado em NodeJS e aqui abaixo estão os acessos às aulas:
 - [ ] [Aula 6 - Módulo Console](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module)
 - [ ] [Aula 7 - Módulos de rede](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module)
 - [ ] [Aula 8 - Hashes](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module)
-- [ ] [Aula 9 - .ENV](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module)
-- [ ] [Aula 10 - Luxon](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module)
+- [X] [Aula 9 - .ENV e Luxon](https://github.com/Lucacks/Lets-Code/tree/main/NodeJS-module/src/08-03-2022-extra)
